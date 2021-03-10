@@ -1,7 +1,7 @@
 import os
 
 from fastapi import FastAPI, Depends
-from .config import Settings, get_settings
+from app.config import Settings, get_settings
 
 from tortoise.contrib.fastapi import register_tortoise
 
